@@ -39,7 +39,6 @@ MAKE_FLAGS += KERNEL_SRC=$(LINUX_DIR) ARCH=$(LINUX_KARCH)
 MAKE_PATH:=kernelmod
 
 KERNEL_CC:= $(filter-out ccache,$(KERNEL_CC))
-KERNEL_CC:= $(filter-out ccache,$(KERNEL_CC))
 
 ifneq (,$(findstring clang,$(KERNEL_CC)))
 	ifneq (,$(filter clang-%,$(KERNEL_CC)))
