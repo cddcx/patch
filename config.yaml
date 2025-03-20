@@ -1,6 +1,6 @@
 proxy-providers:
   Airport1:
-    url: "https://ksmzo.com:82/dy/R0lBODg4LTIwMjQwOAo="
+    url: "机场订阅"
     type: http
     interval: 86400
     health-check:
