@@ -9,11 +9,6 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    header:
-      User-Agent:
-      - "Clash"
-      - "mihomo"
-      - "Clash.meta"
 
 # 全局配置 
 port: 7890
